@@ -1,0 +1,133 @@
+.center{
+    width: 1280px;
+    height: 1080px;
+    margin: 0% auto;
+    gap: 0;
+}
+
+header{
+    display: flex;
+}
+
+header>.left{
+    width: 200px;
+    height: 100px;
+    background-color: #EAE9EE;
+}
+
+header>.right{
+    width: 1080px;
+    height: 100px;
+    background-color: #C2C3D6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+}
+.top>.left{
+    width: 250px;
+    height: 440px;
+    background-color: #E1E1F5;
+}
+.top>.right{
+    display: flex;
+    flex-direction: column;
+}
+.righttop{
+    display: flex;
+    height: 220px;
+
+}
+.top>.righttop *{
+    height: 220px;
+    top: 100px;
+}
+.righttop>.box1{
+    width: 730px;
+    background-color: #C0C0FB;
+}
+.righttop>.box2{
+    width: 300px;
+    background-color: #7878D4;
+}
+  
+.rightbottom{
+    display: flex;
+    height: 220px;
+}
+.rightbottom *{
+    height: 220px;
+}
+.rightbottom>.box3{
+    width: 280px;
+    background-color: #9999EF;
+}
+.rightbottom>.box4{
+    width: 750px;
+    background-color: #CACBE4;
+}
+.bottom{
+    display: flex;
+}
+.bottom>.left{
+    display: flex;
+}
+.bottom>.left *{
+    height: 440px;
+}
+.bottom>.left>.left1{
+    width: 177px;
+    background-color: #7878D4;
+}
+.bottom>.left>.left2{
+    width: 176px;
+    background-color: #353AC2;
+}
+.bottom>.left>.left3{
+    width: 177px;
+    background-color: #0D1163;
+}
+.bottom>.right{
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom>.right>.righttop{
+    width: 750px;
+    height: 242px;
+    background-color: #666CEE;
+}
+.rightbottom{
+    height: 198px;
+}
+.rightbottom>.bottom1{
+    width: 372px;
+    height: 198px;
+    background-color: #7D7FA7;
+}
+.rightbottom>.bottom2{
+    width: 378px;
+    height: 198px;
+    background-color: #4C4F8C;
+}
+footer{
+    display: flex;
+}
+footer>.left{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+footer>.middle{
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
+footer>.right{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
